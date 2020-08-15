@@ -1,0 +1,6 @@
+.image {
+  max-width: 400px;
+  max-height: 800px;
+  margin: 40px auto 0 20px;
+  object-fit: contain;
+}
