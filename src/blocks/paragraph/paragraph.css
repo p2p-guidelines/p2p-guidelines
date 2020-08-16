@@ -1,8 +1,9 @@
 @import url('./__span/paragraph__span.css');
 .paragraph {
-  width: 600px;
+  width: 900px;
   font-size: 24px;
   font-weight: normal;
   line-height: 35px;
   margin: 16px auto 0 0;
+  padding-right: 20px;
 }
