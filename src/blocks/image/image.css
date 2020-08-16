@@ -4,3 +4,9 @@
   margin: 40px auto 0 20px;
   object-fit: contain;
 }
+@media screen and (max-width: 400px) {
+  .image {
+    max-width: 300px;
+    margin: 20px auto 0 0;
+  }
+}

@@ -1,6 +1,6 @@
 @import url('./__span/paragraph__span.css');
 .paragraph {
-  width: 900px;
+  max-width: 900px;
   font-size: 24px;
   font-weight: normal;
   line-height: 35px;
