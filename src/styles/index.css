@@ -11,6 +11,7 @@
 @import url('../blocks/link/link.css');
 @import url('../blocks/images/images.css');
 @import url('../blocks/image/image.css');
+@import url('../blocks/table/table.css');
 @font-face {
     src: url('../fonts/Inter-Regular.woff2');
     font-family: Inter; 
