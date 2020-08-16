@@ -3,18 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
+  <title>p2p мессенджеры и блоги</title>
   <link rel="stylesheet" href="src/styles/index.css">
 </head>
 <body class="body">
   <div class="page">
     <header class="header">
-      <h1 class="header__title">О чём это?</h1>
+      <h1 class="header__title">Введение</h1>
     </header>
     <main class="content">
       <div class="section">
         <div class="section__texts">
-            <p class="paragraph" id="">Эти инструкции о том, как пользователю обеспечить 
+            <p class="paragraph" id="">
+       Эти инструкции о том, как пользователю обеспечить 
               себя надёжными средствами связи: мессенджерами и блог-сервисами. Речь 
               идёт о приложениях, которые могут функционировать при частичном или полном отсутствии доступа в интернет.
             </p>
@@ -45,53 +46,97 @@
           <table class="table">
             <tr class="table">
               <th class="table"></th>
-	      <th class="table"><a href="src/pages/briar.html">Briar</a></th>
-	      <th class="table"><a href="src/pages/ssb.html">Secure Scuttlebutt</a></th>
+              <th class="table">Briar</th>
+              <th class="table">Secure Scuttlebutt</th>
+            </tr>
+            <tr>
+	     <td class="table" colspan="3" style="text-align:left"><strong>Функции</strong></td>
             </tr>
             <tr class="table">
-              <td class="table">Мессенджер: личные сообщения</td>
+              <td class="table" style="text-align:left">Личные сообщения</td>
               <td class="table">да</td>
               <td class="table">да</td>
             </tr>
             <tr class="table">
-              <td class="table">Мессенджер: группы</td>
+              <td class="table" style="text-align:left">Групповые чаты</td>
               <td class="table">да</td>
               <td class="table">?</td>
             </tr>
             <tr class="table">
-              <td class="table">Блоги</td>
+              <td class="table" style="text-align:left">Блоги</td>
               <td class="table">да</td>
               <td class="table">да</td>
             </tr>
             <tr class="table">
-              <td class="table">Android</td>
-              <td class="table"><a href="src/pages/briar.html">Briar</a></td>
-              <td class="table"><a href="src/pages/manyverse.html">Manyverse</a></td>
-            </tr>
-            <tr class="table">
-              <td class="table">iOS</td>
+              <td class="table" style="text-align:left">Форумы</td>
+              <td class="table">да</td>
               <td class="table">нет</td>
-              <td class="table"><a href="src/pages/manyverse.html">Manyverse</a></td>
             </tr>
-            <tr class="table">
-              <td class="table">PC: Windows</td>
+            <tr>
+              <td class="table" colspan="3" style="text-align:left"><strong>Способы соединения</strong></td>
+            </tr>
+             <tr class="table">
+              <td class="table" style="text-align:left">Интернет</td>
               <td class="table">нет</td>
-              <td class="table"><a href="src/pages/patchwork.html">Patchwork</a></td>
+              <td class="table">да</td>
             </tr>
             <tr class="table">
-              <td class="table">PC: Mac</td>
+              <td class="table" style="text-align:left">Wi-Fi</td>
+              <td class="table">да</td>
+              <td class="table">да</td>
+            </tr>
+            <tr class="table">
+              <td class="table" style="text-align:left">Bluetooth</td>
+              <td class="table">да</td>
+              <td class="table">да</td>
+            </tr>
+            <tr class="table">
+              <td class="table" style="text-align:left">Tor</td>
+              <td class="table">да</td>
               <td class="table">нет</td>
-              <td class="table"><a href="src/pages/patchwork.html">Patchwork</a></td>
+            </tr>
+            <tr>
+              <td class="table" colspan="3" style="text-align:left"><strong>Приложения</strong></td>
             </tr>
             <tr class="table">
-              <td class="table">PC: Linux</td>
+              <td class="table" style="text-align:left">Android</td>
+	      <td class="table" style="white-space:pre-wrap; word-wrap:break-word"><a href="https://play.google.com/store/apps/details?id=org.briarproject.briar.android">Briar (Google Play)</a>
+<a href="https://briarproject.org/installing-briar-via-f-droid/">Briar (F-Droid)</a>
+<a href="src/pages/briar.html">Briar (инструкция)</a></td>
+              <td class="table" style="white-space:pre-wrap; word-wrap:break-word"><a href="https://play.google.com/store/apps/details?id=se.manyver">Manyverse (Google Play)</a>
+<a href="https://f-droid.org/packages/se.manyver/">Manyverse (F-Droid)</a></td>
+            </tr>
+            <tr class="table">
+              <td class="table" style="text-align:left">iOS</td>
               <td class="table">нет</td>
-              <td class="table"><a href="src/pages/patchwork.html">Patchwork</a></td>
+              <td class="table"><a href="https://apps.apple.com/app/manyverse/id1492321617">Manyverse (App Store)</a></td>
             </tr>
             <tr class="table">
-              <td class="table">Official site</td>
-              <td class="table">https://briarproject.org</td>
-              <td class="table">https://scuttlebutt.nz/</td>
+              <td class="table" style="text-align:left">PC: Windows</td>
+              <td class="table">нет</td>
+              <td class="table" rowspan="3" style="white-space:pre-wrap; word-wrap:break-word"><a href="https://ahdinosaur.github.io/patchwork-downloader/">Скачать</a> 
+<a href="src/pages/patchwork.html">Patchwork (инструкция)</a></td>
+            </tr>
+            <tr class="table">
+              <td class="table" style="text-align:left">PC: Mac</td>
+              <td class="table">нет</td>
+            </tr>
+            <tr class="table">
+              <td class="table" style="text-align:left">PC: Linux</td>
+              <td class="table">нет</td>
+            </tr>
+            <tr>
+              <td class="table" colspan="3" style="text-align:left"><strong>Ссылки</strong></td>
+            </tr>
+            <tr class="table">
+              <td class="table" style="text-align:left">Официальный сайт</td>
+	      <td class="table"><a href="https://briarproject.org">briarproject.org</a></td>
+	      <td class="table"><a href="https://scuttlebutt.nz">scuttlebutt.nz</a></td>
+            </tr>
+            <tr class="table">
+              <td class="table" style="text-align:left">Исходный код</td>
+	      <td class="table"><a href="https://code.briarproject.org/briar">code.briarproject.org/briar</a></td>
+	      <td class="table"><a href="https://github.com/ssbc">github.com/ssbc</a></td>
             </tr>
           </table>
         </div>
