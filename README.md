@@ -1,1 +1,1 @@
-[Инструкции по децентрализованным сервисам](https://violetvelo.github.io/p2p-guidelines/)
+[p2p мессенджеры и блоги](https://p2p-guidelines.github.io/)
