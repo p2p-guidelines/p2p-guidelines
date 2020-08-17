@@ -1,235 +1,238 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>p2p мессенджеры и блоги</title>
-  <link rel="stylesheet" href="src/styles/index.css">
-</head>
-<body class="body">
-  <div class="page">
-    <header class="header">
-      <h1 class="header__title">p2p мессенджеры и блоги</h1>
-    </header>
-    <main class="content">
-      <div class="section">
-        <div class="section__texts">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p2p мессенджеры и блоги</title>
+    <link rel="stylesheet" href="src/styles/index.css">
+  </head>
+  <body class="body">
+    <div class="page">
+      <header class="header">
+        <h1 class="header__title">p2p мессенджеры и блоги</h1>
+      </header>
+      <main class="content">
+        <div class="section">
+          <div class="section__texts">
             <p class="paragraph">
-       Мы провели небольшое исследование коммуникационных приложений с открытым исходным кодом, использующих в своей работе децентрализованные технологии.
-     </p>
-            <p class="paragraph">
-       На этой странице мы подводим краткий итог наших экспериментов: ни одно из приложений не кажется идеальным решением на все случаи жизни, три приложения заработали, три не заработали. Одно мы не протестировали.
-       Для тех трёх, которые заработали, мы написали небольшие инструкции.
-     </p>
-     <p class="paragraph">
-       Мы будем рады замечаниям и дополнениям в виде тикетов на <a href="https://github.com/p2p-guidelines/p2p-guidelines.github.io">GitHub</a>.
+              Мы провели небольшое исследование коммуникационных приложений с открытым исходным кодом, использующих в своей работе децентрализованные технологии.
             </p>
+            <p class="paragraph">
+              На этой странице мы подводим краткий итог наших экспериментов: ни одно из приложений не кажется идеальным решением на все случаи жизни, три приложения заработали, три не заработали. Одно мы не протестировали.
+              Для тех трёх, которые заработали, мы написали небольшие инструкции.
+            </p>
+            <p class="paragraph">
+              Мы будем рады замечаниям и дополнениям в виде тикетов на <a href="https://github.com/p2p-guidelines/p2p-guidelines.github.io">GitHub</a>.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="section">
-        <div class="section__texts">
+        <div class="section">
+          <div class="section__texts">
             <h2 class="title">Работающие технологии и приложения</h2>
+          </div>
+          <div class="section__wrap">
+            <table class="table">
+              <tr class="table">
+                <th class="table"></th>
+                <th class="table">Briar</th>
+                <th class="table">Secure Scuttlebutt</th>
+              </tr>
+              <tr>
+                <td class="table" colspan="3" style="text-align:left"><strong>Функции</strong></td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Личные сообщения</td>
+                <td class="table">да</td>
+                <td class="table">да</td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Групповые чаты</td>
+                <td class="table">да</td>
+                <td class="table">?</td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Блоги</td>
+                <td class="table">да</td>
+                <td class="table">да</td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Форумы</td>
+                <td class="table">да</td>
+                <td class="table">нет</td>
+              </tr>
+              <tr>
+                <td class="table" colspan="3" style="text-align:left"><strong>Способы соединения</strong></td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Интернет</td>
+                <td class="table">через встроенный Tor</td>
+                <td class="table">да</td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Wi-Fi</td>
+                <td class="table">да</td>
+                <td class="table">да</td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Bluetooth</td>
+                <td class="table">да</td>
+                <td class="table">да</td>
+              </tr>
+              <tr>
+                <td class="table" colspan="3" style="text-align:left"><strong>Приложения</strong></td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Android</td>
+                <td class="table" style="white-space:pre-wrap; word-wrap:break-word">
+                  <a href="https://play.google.com/store/apps/details?id=org.briarproject.briar.android">Briar (Google Play)</a>
+                  <a href="https://briarproject.org/installing-briar-via-f-droid/">Briar (F-Droid)</a>
+                  <a href="src/pages/briar.html">Наша инструкция</a></td>
+                <td class="table" style="white-space:pre-wrap; word-wrap:break-word">
+                  <a href="https://play.google.com/store/apps/details?id=se.manyver">Manyverse (Google Play)</a>
+                  <a href="https://f-droid.org/packages/se.manyver/">Manyverse (F-Droid)</a></td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">iOS</td>
+                <td class="table">нет</td>
+                <td class="table"><a href="https://apps.apple.com/app/manyverse/id1492321617">Manyverse (App Store)</a></td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">PC: Windows</td>
+                <td class="table">нет</td>
+                <td class="table" rowspan="3" style="white-space:pre-wrap; word-wrap:break-word">
+                  <a href="https://ahdinosaur.github.io/patchwork-downloader/">Patchwork (скачать)</a> 
+                  <a href="src/pages/patchwork.html">Наша инструкция</a>
+                </td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">PC: Mac</td>
+                <td class="table">нет</td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">PC: Linux</td>
+                <td class="table">нет</td>
+              </tr>
+              <tr>
+                <td class="table" colspan="3" style="text-align:left"><strong>Ссылки</strong></td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Официальный сайт</td>
+                <td class="table"><a href="https://briarproject.org">briarproject.org</a></td>
+                <td class="table"><a href="https://scuttlebutt.nz">scuttlebutt.nz</a></td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Исходный код</td>
+                <td class="table"><a href="https://code.briarproject.org/briar">code.briarproject.org/briar</a></td>
+                <td class="table"><a href="https://github.com/ssbc">github.com/ssbc</a></td>
+              </tr>
+            </table>
+          </div>
         </div>
-        <div class="section__wrap">
-          <table class="table">
-            <tr class="table">
-              <th class="table"></th>
-              <th class="table">Briar</th>
-              <th class="table">Secure Scuttlebutt</th>
-            </tr>
-            <tr>
-      <td class="table" colspan="3" style="text-align:left"><strong>Функции</strong></td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Личные сообщения</td>
-              <td class="table">да</td>
-              <td class="table">да</td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Групповые чаты</td>
-              <td class="table">да</td>
-              <td class="table">?</td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Блоги</td>
-              <td class="table">да</td>
-              <td class="table">да</td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Форумы</td>
-              <td class="table">да</td>
-              <td class="table">нет</td>
-            </tr>
-            <tr>
-              <td class="table" colspan="3" style="text-align:left"><strong>Способы соединения</strong></td>
-            </tr>
-             <tr class="table">
-              <td class="table" style="text-align:left">Интернет</td>
-              <td class="table">через встроенный Tor</td>
-              <td class="table">да</td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Wi-Fi</td>
-              <td class="table">да</td>
-              <td class="table">да</td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Bluetooth</td>
-              <td class="table">да</td>
-              <td class="table">да</td>
-            </tr>
-            <tr>
-              <td class="table" colspan="3" style="text-align:left"><strong>Приложения</strong></td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Android</td>
-       <td class="table" style="white-space:pre-wrap; word-wrap:break-word"><a href="https://play.google.com/store/apps/details?id=org.briarproject.briar.android">Briar (Google Play)</a>
-<a href="https://briarproject.org/installing-briar-via-f-droid/">Briar (F-Droid)</a>
-<a href="src/pages/briar.html">Наша инструкция</a></td>
-              <td class="table" style="white-space:pre-wrap; word-wrap:break-word"><a href="https://play.google.com/store/apps/details?id=se.manyver">Manyverse (Google Play)</a>
-<a href="https://f-droid.org/packages/se.manyver/">Manyverse (F-Droid)</a></td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">iOS</td>
-              <td class="table">нет</td>
-              <td class="table"><a href="https://apps.apple.com/app/manyverse/id1492321617">Manyverse (App Store)</a></td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">PC: Windows</td>
-              <td class="table">нет</td>
-              <td class="table" rowspan="3" style="white-space:pre-wrap; word-wrap:break-word"><a href="https://ahdinosaur.github.io/patchwork-downloader/">Patchwork (скачать)</a> 
-<a href="src/pages/patchwork.html">Наша инструкция</a></td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">PC: Mac</td>
-              <td class="table">нет</td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">PC: Linux</td>
-              <td class="table">нет</td>
-            </tr>
-            <tr>
-              <td class="table" colspan="3" style="text-align:left"><strong>Ссылки</strong></td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Официальный сайт</td>
-       <td class="table"><a href="https://briarproject.org">briarproject.org</a></td>
-       <td class="table"><a href="https://scuttlebutt.nz">scuttlebutt.nz</a></td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Исходный код</td>
-       <td class="table"><a href="https://code.briarproject.org/briar">code.briarproject.org/briar</a></td>
-       <td class="table"><a href="https://github.com/ssbc">github.com/ssbc</a></td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div class="section">
-         <div class="section__texts">
+        <div class="section">
+          <div class="section__texts">
             <h2 class="title">Наши инструкции</h2>
-  </div>
-         <div class="section__wrap">
-          <table class="table">
-            <tr class="table">
-              <th class="table">Приложение</th>
-              <th class="table">Протокол</th>
-              <th class="table">Ссылка на инструкцию</th>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Briar</td>
-       <td class="table"><a href="https://en.wikipedia.org/wiki/Briar_(software)">Briar</a></td>
-       <td class="table"><a href="src/pages/briar.html">Перевод инструкции с официального сайта проекта</a></td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Patchwork</td>
-       <td class="table"><a href="https://en.wikipedia.org/wiki/Secure_Scuttlebutt">Secure Scuttlebutt</a></td>
-       <td class="table"><a href="src/pages/patchwork.html">Инструкция</a></td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Manyverse</td>
-       <td class="table"><a href="https://en.wikipedia.org/wiki/Secure_Scuttlebutt">Secure Scuttlebutt</a></td>
-       <td class="table">Инструкция в разработке</td>
-            </tr>
-   </table>
- </div>
-        <div class="section__texts">
-            <p class="paragraph">
-       <strong>Зачем нужны инструкции?</strong>
-       p2p приложения могут казаться непривычными и неудобными.
-       Инструкции объясняют как в них делать обычные вещи: отправлять сообщения, оставлять комментарии и т.д..
+          </div>
+          <div class="section__wrap">
+            <table class="table">
+              <tr class="table">
+                <th class="table">Приложение</th>
+                <th class="table">Протокол</th>
+                <th class="table">Ссылка на инструкцию</th>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Briar</td>
+                <td class="table"><a href="https://en.wikipedia.org/wiki/Briar_(software)">Briar</a></td>
+                <td class="table"><a href="src/pages/briar.html">Перевод инструкции с официального сайта проекта</a></td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Patchwork</td>
+                <td class="table"><a href="https://en.wikipedia.org/wiki/Secure_Scuttlebutt">Secure Scuttlebutt</a></td>
+                <td class="table"><a href="src/pages/patchwork.html">Инструкция</a></td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Manyverse</td>
+                <td class="table"><a href="https://en.wikipedia.org/wiki/Secure_Scuttlebutt">Secure Scuttlebutt</a></td>
+                <td class="table">Инструкция в разработке</td>
+              </tr>
+            </table>
+          </div>
+          <div class="section__texts">
+            <p class="paragraph"><strong>Зачем нужны инструкции?</strong>
+              p2p приложения могут казаться непривычными и неудобными.
+              Инструкции объясняют как в них делать обычные вещи: отправлять сообщения, оставлять комментарии и т.д..
             </p>
+          </div>
         </div>
-      </div>
-      <div class="section">
-         <div class="section__texts">
+        <div class="section">
+          <div class="section__texts">
             <h2 class="title">Не работающие (у нас) приложения</h2>
-  </div>
-         <div class="section__wrap">
-          <table class="table">
-            <tr class="table">
-              <th class="table">Приложение</th>
-              <th class="table">Протокол</th>
-              <th class="table">Что пошло не так</th>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Antox</td>
-       <td class="table"><a href="https://tox.chat">Tox</a></td>
-              <td class="table">заработало, но часто вылетало</td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">TRIfA из Google Play</td>
-       <td class="table"><a href="https://tox.chat">Tox</a></td>
-              <td class="table">вылетало при запуске</td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">TRIfA из F-Droid</td>
-       <td class="table"><a href="https://tox.chat">Tox</a></td>
-              <td class="table">не тестировали</td>
-            </tr>
-            <tr class="table">
-              <td class="table" style="text-align:left">Jami</td>
-       <td class="table">несколько технологий связи</td>
-              <td class="table">установилось, но собеседник не получает сообщений</td>
-            </tr>
-   </table>
-  </div>
-         <div class="section__texts">
-            <p class="paragraph">
-       <strong>Про Tox:</strong> версии TRIfA и Antox в Google Play устарели и давно не обновлялись.
-              Версия TRIfA в F-Droid, скорее всего, актуальна. Возможно она работает.
-       Для того, чтобы её установить, необходимо вначале установить каталог приложений
-       <a href="https://ru.wikipedia.org/wiki/F-Droid">F-Droid</a>.
+          </div>
+          <div class="section__wrap">
+            <table class="table">
+              <tr class="table">
+                <th class="table">Приложение</th>
+                <th class="table">Протокол</th>
+                <th class="table">Что пошло не так</th>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Antox</td>
+                <td class="table"><a href="https://tox.chat">Tox</a></td>
+                <td class="table">заработало, но часто вылетало</td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">TRIfA из Google Play</td>
+                <td class="table"><a href="https://tox.chat">Tox</a></td>
+                <td class="table">вылетало при запуске</td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">TRIfA из F-Droid</td>
+                <td class="table"><a href="https://tox.chat">Tox</a></td>
+                <td class="table">не тестировали</td>
+              </tr>
+              <tr class="table">
+                <td class="table" style="text-align:left">Jami</td>
+                <td class="table">несколько технологий связи</td>
+                <td class="table">установилось, но собеседник не получает сообщений</td>
+              </tr>
+            </table>
+          </div>
+          <div class="section__texts">
+            <p class="paragraph"><strong>Про Tox:</strong> версии TRIfA и Antox в Google Play 
+              устарели и давно не обновлялись. Версия TRIfA в F-Droid, скорее всего, актуальна. Возможно она работает.
+              Для того, чтобы её установить, необходимо вначале установить каталог приложений
+              <a href="https://ru.wikipedia.org/wiki/F-Droid">F-Droid</a>.
             </p>
-         </div>
-      </div>
-      <div class="section">
-        <div class="section__texts">
-          <h2 class="title">Замечания о безопасности</h2>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section__texts">
+            <h2 class="title">Замечания о безопасности</h2>
             <p class="paragraph">
               Авторы настоящего исследования не являются экспертами по безопастности. 
               Мы будем рады комментариям и дополнениям со стороны экспертов.
             </p>
             <p class="paragraph">
-       Цель настоящего исследования состоит в том, чтобы расширить спектр доступных 
+              ящего исследования состоит в том, чтобы расширить спектр доступных 
               вам инструментов. Адекватная оценка рисков в конкретной ситуации - это ваша ответственность.
             </p>
             <p class="paragraph">
-       Если вы допускаете, что вопрос безопастности коммуникации может быть для вас актуален, то изучите
-       <a href="https://ssd.eff.org/ru" class="link">Советы, инструменты и руководства по обеспечению безопасности онлайновых коммуникаций</a> - это проект некоммерческой правозащитной организации "Фонд электронных рубежей".
+              Если вы допускаете, что вопрос безопастности коммуникации может быть для вас актуален, то изучите
+              <a href="https://ssd.eff.org/ru" class="link">Советы, инструменты и руководства по обеспечению безопасности онлайновых коммуникаций</a> - это проект некоммерческой правозащитной организации "Фонд электронных рубежей".
             </p>
+          </div>
         </div>
-      </div>
-      <div class="section">
-        <div class="section__texts">
-          <h2 class="title">Другие материалы на эту и близкие темы</h2>
-          <p class="paragraph">
-            Рекомендации по выбору VPN от РосКомСвободы: <a href="https://vpnlove.me" class="link">vpnlove.me</a>.
-          </p>
-          <p class="paragraph">
-            Обзор этих и ещё нескольких p2p приложений, включающий также приложения с закрытым кодом: <a href="https://securechatguide.org/p2papps.html" class="link">Peer to Peer Apps @ securechatguide.org</a>.
-          </p>
+        <div class="section">
+          <div class="section__texts">
+            <h2 class="title">Другие материалы на эту и близкие темы</h2>
+            <p class="paragraph">
+              Рекомендации по выбору VPN от РосКомСвободы: <a href="https://vpnlove.me" class="link">vpnlove.me</a>.
+            </p>
+            <p class="paragraph">
+              Обзор этих и ещё нескольких p2p приложений, включающий также приложения с закрытым кодом: <a href="https://securechatguide.org/p2papps.html" class="link">Peer to Peer Apps @ securechatguide.org</a>.
+            </p>
+          </div>
         </div>
-      </div>
-    </main>
-  </div>
-</body>
+      </main>
+    </div>
+  </body>
+</html>
